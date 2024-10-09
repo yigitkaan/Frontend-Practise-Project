@@ -141,6 +141,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 50px 0;
 }
 
 .container-image-two,
@@ -151,7 +152,7 @@ h2 {
 /* Üçüncü Bölüm - Görsel */
 
 .container-image-two {
-  margin-bottom: 120px;
+  margin-bottom: 220px;
 }
 
 .container-image-two img {
@@ -159,19 +160,17 @@ h2 {
 }
 
 /* Üçüncü Bölüm - Text */
-.container-text-two h2,
-.container-text-two p {
-  font-weight: 700;
-}
 
 .container-text-two h2 {
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .container-text-two p {
-  line-height: 20px;
+  line-height: 25px;
   margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 /* Üçüncü Bölüm - Buton */
@@ -193,7 +192,7 @@ h2 {
   cursor: pointer;
 }
 
-/* Dördümcü Bölüm */
+/* Dördüncü Bölüm */
 .fourth-part {
   display: flex;
   flex-direction: column;
@@ -203,7 +202,7 @@ h2 {
 
 .fourth-part h2 {
   margin-top: 100px;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .fourth-part img {
@@ -227,4 +226,100 @@ h2 {
   background-color: #276666;
   color: #ffffff;
   cursor: pointer;
+}
+
+/* Beşinci Bölüm Bölüm */
+.fifth-part {
+  background-color: #e8e8e8;
+  background: linear-gradient(to top, #ffffff 70%, #e8e8e8 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.fifth-part h2,
+.fifth-part p {
+  text-align: center;
+}
+
+.fifth-part h2 {
+  font-size: 40px;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+
+.fifth-part p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 100px;
+}
+
+/* Blog Yazıları Bölümü */
+.blogs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #004062;
+  padding: 100px 100px;
+}
+
+.blogs h3 {
+  color: #bed73e;
+  margin-bottom: 30px;
+  margin-right: 1040px;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+/* Blog Yazıları Bölümü - Blog Yazılarının Yer Aldığı Konteynır Bölümü */
+.container-blogs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+/*  Blog Yazıları Bölümü - Blog Yazıları */
+.blog {
+  border: 2px solid #bed73e;
+  padding: 20px;
+  height: 350px;
+  position: relative;
+}
+
+.blog img {
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.blog h4 {
+  color: #bed73e;
+  font-size: 19px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.blog p,
+.container-blogs a {
+  letter-spacing: 1px;
+}
+
+.blog p {
+  color: #c4d3da;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.container-blogs a {
+  color: #bed73e;
+  font-size: 11px;
+  position: absolute;
+  bottom: 10px;
+}
+
+.container-blogs a:hover {
+  color: #ffffff;
 }
