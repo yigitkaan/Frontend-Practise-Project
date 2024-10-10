@@ -430,7 +430,7 @@ h2 {
   margin-top: 30px;
   margin-bottom: 50px;
 }
-
+/* FOOTER - Şirket Bilgileri ve Linkleri */
 .company-informations {
   display: flex;
   justify-content: space-around;
@@ -459,6 +459,7 @@ h2 {
   margin-bottom: 20px;
 }
 
+/* Copyright Kısmı */
 .copyright {
   display: flex;
   justify-content: space-between;
