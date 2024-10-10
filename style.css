@@ -323,3 +323,157 @@ h2 {
 .container-blogs a:hover {
   color: #ffffff;
 }
+
+/* ASIDE BÖLÜMÜ */
+/* News Bölümü */
+.news {
+  margin: 100px 0;
+  position: relative;
+}
+.container-news {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0 130px;
+}
+
+.container-news img {
+  width: 800px;
+  position: absolute;
+  left: 40px;
+  top: 70px;
+}
+.container-form {
+  margin-right: -40px;
+}
+
+.container-news h3,
+.container-form .text {
+  color: #1a3834;
+  font-weight: 500;
+}
+
+.container-news h3 {
+  font-size: 40px;
+}
+
+.container-form .text.one {
+  font-size: 23px;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+
+.container-form .text.two {
+  font-size: 15px;
+}
+
+.container-form form input,
+.container-form form button {
+  height: 50px;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  letter-spacing: 1px;
+}
+
+.container-form form input {
+  background-color: #eaeaea;
+  padding-left: 30px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.container-form form input:hover {
+  cursor: pointer;
+}
+
+.container-form form button {
+  width: 130px;
+  background-color: #1a3834;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.container-form form button:hover {
+  background-color: #276666;
+  cursor: pointer;
+}
+
+/* FOOTER BÖLÜMÜ */
+.footer {
+  background-color: #1a3834;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 158px;
+  height: 600px;
+  flex-direction: column;
+}
+
+.footer a {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.footer a:hover {
+  color: #276666;
+}
+
+.footer li {
+  margin-bottom: 15px;
+}
+
+.footer hr {
+  width: 77%;
+  border: 1px solid #3a907d;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.company-informations {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 110px;
+  margin-top: -10px;
+}
+
+.container-information img {
+  width: 300px;
+  border-radius: 4%;
+  margin-bottom: 20px;
+}
+
+.container-information p,
+.container-links h4 {
+  color: #3a907d;
+}
+
+.container-information p {
+  line-height: 27px;
+  font-size: 18px;
+}
+
+.container-links h4 {
+  margin-bottom: 20px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 430px;
+}
+
+.copyright p,
+.copyright a {
+  color: #cad0cf;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.copyright-links {
+  display: flex;
+  gap: 20px;
+}
